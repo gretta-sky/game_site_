@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Eurostile';
+    src: url('../fonts/Eurostile-Oblique.eot');
+    src: url('../fonts/Eurostile-Oblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Eurostile-Oblique.woff2') format('woff2'),
+        url('../fonts/Eurostile-Oblique.woff') format('woff'),
+        url('../fonts/Eurostile-Oblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'EuroStyle';
+    src: url('../fonts/EuroStyleNormal.eot');
+    src: url('../fonts/EuroStyleNormal.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/EuroStyleNormal.woff2') format('woff2'),
+        url('../fonts/EuroStyleNormal.woff') format('woff'),
+        url('../fonts/EuroStyleNormal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'dripicons-v2';
+    src: url('../fonts/dripicons-v2.eot');
+    src: url('../fonts/dripicons-v2.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/dripicons-v2.woff2') format('woff2'),
+        url('../fonts/dripicons-v2.woff') format('woff'),
+        url('../fonts/dripicons-v2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

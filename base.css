@@ -1,0 +1,1265 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+:root {
+    --primary-color:  #d10008;
+    --font-1: 'Rajdhani', sans-serif;
+}
+
+body {
+    font-family: var(--font-1);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+ul, 
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn,
+.btn2,
+.btn7 {
+    height: 44px;
+    padding: 12px 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: var(--font-1);
+font-size: 15px;
+font-weight: 700;
+line-height: 19.14px;
+text-align: left;
+cursor: pointer;
+
+}
+
+.bg-container {
+    background-image: url(../images/фонпервый.jpg);
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.page-header {
+    height: 70px;
+    background: rgba(0, 0, 0, 0.31);
+    
+    -webkit-backdrop-filter: blur(9.514px);
+    backdrop-filter: blur(9.514px);
+}
+.page-header .inner {
+    margin: 0 auto;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    height: 100%;
+}
+.page-header .btn {
+    position: absolute;
+    right: 6px;
+}
+.page-header .img {
+    margin: 0 50px ; 
+    background: rgba(255, 255, 255, 1);
+
+}
+.page-header .left-nav ul,
+.page-header .right-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-header nav li {
+    margin: 0 18px;
+}
+
+.page-header nav a {
+    font-family: var(--font-1);
+font-size: 15px;
+font-weight: 700;
+line-height: 19.14px;
+text-align: left;
+color: rgba(162, 162, 162, 1);
+text-transform: uppercase;
+text-decoration: none;
+}
+
+.page-header nav li.active a {
+    font-family: var(--font-1);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.14px;
+    text-align: left;
+    color: rgba(248, 164, 0, 1);
+text-shadow: 0 0 5px #F8A400;
+
+}
+.banner {
+    height: 930px;
+    display: flex;
+    justify-content: center;  
+}
+.banner .inner {
+    max-width: 100%;
+    height: 100%;
+    padding-bottom: 200px;
+    display: flex;
+    align-items: flex-end;
+  
+}
+
+
+
+.features {
+    background-color: black;
+    background-image: url(../images/фончерни.jpg);
+}
+.features .inner {
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -100px;
+}
+
+.features .feature-large {
+    width: 535px;
+height: 400px;
+left: 20px;
+
+
+}
+
+.features .feature-medium {
+    width: 451px;
+height: 400px;
+left: 20px;
+
+
+}
+
+.features .feature-small {
+    width: 466px;
+height: 180px;
+
+
+
+}
+
+.features .feature-small:first-child {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.features .feature {
+    background-position: center;
+    background-size: cover;
+    margin: 20px;
+position: relative;
+    box-shadow: 0px 2px 27px 0px #000000CF;
+
+}
+
+.features .feature-1
+{
+    background-image: url(../images/вотч.jpg);
+}
+
+.features .feature-1 .feature-text {
+    left: -24px;
+    bottom: 40px;
+}
+
+.features .feature-2
+{
+    background-image: url(../images/плывет.jpg);
+}
+.features .feature-2 .feature-text {
+    left: -24px;
+    bottom: 20px;
+}
+
+.features .feature-3
+{
+    background-image: url(../images/челикистоят.jpg);
+}
+.features .feature-3 .feature-text {
+
+        right: -24px;
+    bottom: 20px;
+    text-align: right;
+}
+
+.features .feature-4
+{
+    background-image: url(../images/обоибрауз.jpg);
+}
+.features .feature-4 .feature-text {
+    left: -24px;
+    bottom: 100px;
+}
+.features .feature-5
+{
+    background-image: url(../images/преордер.jpg);
+}
+.features .feature-5 .feature-text {
+    left: 100px;
+    bottom: 40px;
+    text-align: center;
+}
+
+.features .feature-text {
+    position: absolute;
+}
+.features .feature-text h2 {
+font-size: 14px;
+font-weight: 600;
+letter-spacing: 2px;
+color: #F8A400;
+margin: 0;
+}
+.features .feature-text p {
+    font-family: Eurostile LT Std, sans-serif;
+font-size: 36px;
+font-style: italic;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 2px;
+text-align: left;
+color: #FFFFFF;
+margin: 0;
+}
+
+
+
+.features .feature-text {
+    position: absolute;
+    width: 70%; /* Ограничим ширину текста */
+    box-sizing: border-box; /* Включаем внутренние отступы в общую ширину */
+    padding: 10px; /* Добавляем немного внутреннего отступа */
+}
+
+/* Стилизация заголовков */
+.features .feature-text h2 {
+    font-size: 12px; /* Уменьшаем шрифт для заголовка */
+    font-weight: 600;
+    letter-spacing: 1px; /* Уменьшаем расстояние между буквами */
+    color: #F8A400;
+    margin-bottom: 5px; /* Небольшое расстояние между заголовком и параграфом */
+}
+
+/* Стилизация параграфов */
+.features .feature-text p {
+    font-family: Eurostile LT Std, sans-serif;
+    font-size: 18px; /* Уменьшаем основной текст */
+    line-height: 22px; /* Уменьшаем межстрочный интервал */
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+/* Позиционирование текста для каждой секции */
+.features .feature-1 .feature-text {
+    bottom: 30px; /* Упрощаем позиционирование */
+}
+
+.features .feature-2 {
+    background-image: url(../images/плывет.jpg);
+}
+.features .feature-2 .feature-text {
+    bottom: 15px;
+}
+
+.features .feature-3 {
+    background-image: url(../images/челикистоят.jpg);
+}
+.features .feature-3 .feature-text {
+    bottom: 15px;
+    text-align: right;
+}
+
+.features .feature-4 {
+    background-image: url(../images/обоибрауз.jpg);
+}
+.features .feature-4 .feature-text {
+    bottom: 75px;
+}
+
+.features .feature-5 {
+    background-image: url(../images/преордер.jpg);
+}
+.features .feature-5 .feature-text {
+    bottom: 30px;
+    text-align: center;
+}
+
+
+
+.character {
+    background-color: rgb(0, 0, 0);
+    height: 1400px;
+width: 100%;
+    position: relative;
+  
+}
+.aloy {
+
+ 
+    height: 1137;
+    width: 737;
+    height: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left;
+    position: absolute;
+    bottom: -150px;
+    z-index: 1;
+}
+.back {
+    background-image: url(../images/переход\ зеленый.png);
+height: 720px;
+width: 100%;
+background-size: cover;
+   
+margin: 0 auto;  
+display: flex;
+position: absolute;   
+flex-wrap: wrap;
+justify-content: center;
+align-items: flex-end;
+bottom: -0px;
+z-index: 2;
+}
+
+
+
+.CHARACTERS {
+   
+gap: 0px;
+opacity: 0px;
+color: linear-gradient(180deg, #2D2D2D 0%, #A3A3A3 100%),
+linear-gradient(0deg, rgba(0, 0, 0, 0.666084), rgba(0, 0, 0, 0.666084));
+position: absolute; 
+top: 0%;
+left: 45%; 
+margin: 0;
+padding: 0;
+
+z-index: -1;
+}
+.PROTAGONISTS {
+    margin-left: 10px;
+}
+.mini {
+    
+    display: flex;
+    flex-direction: row;
+ 
+    align-items: center;
+    position: absolute;
+    right: 20%;
+    top: 28%;
+}
+.miniimg {
+gap: 0px;
+opacity: 0px;
+margin: 0;
+padding: 0;
+position: relative; 
+cursor: pointer;
+
+}
+.btn2{
+    margin-left: 20px;
+}
+
+.ALOY {
+    position: absolute;
+    right: 20%;
+    top: 40%;
+}
+.stop {
+    width: 352px;
+height: 83px;
+gap: 0px;
+opacity: 0px;
+font-family: Arial;
+font-size: 30px;
+font-style: italic;
+font-weight: 700;
+line-height: 83px;
+text-align: right;
+color: #F8A500;
+
+position: absolute;
+right: 24%;
+top: 54%;
+}
+
+.btn3 {
+    background: rgba(30, 30, 30, 0.744);
+cursor: pointer;
+    width: 155px;
+    height: 45px;
+    gap: 0px;
+    opacity: 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: none;
+color: #ffffff;
+text-transform: uppercase;
+font-family: var(--font-1);
+font-size: 10px;
+font-weight: 700;
+line-height: 19.14px;
+text-align: center;
+
+z-index: 4;
+position: absolute;
+right: 24%;
+top: 6%;
+}
+
+h2 {
+    color: #ffffff;
+
+}
+
+
+.weapon1 {
+    position: absolute;
+bottom: 38%;
+right: 30%;
+rotate: -5deg;
+}
+
+.weapon2 {
+    position: absolute;
+    bottom: 20%;
+right: 20%;
+rotate: -5deg;
+}
+
+
+
+
+
+
+.bottom {
+    height: 70px;
+
+
+    display: flex;
+
+   flex-direction: row;
+width: 100%;
+    align-items: last baseline;
+    position: relative;
+    
+
+    margin: 0 auto;
+    
+   
+    justify-content: center;
+    
+ 
+    height: 100%;
+   
+z-index: 3;
+
+bottom: 14px;
+}
+.left-nav2 ul,
+.right-nav2 ul,
+.center-nav2 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.bottom nav li {
+    margin: 0 18px;
+}
+
+.bottom nav a {
+    font-family: var(--font-1);
+font-size: 15px;
+font-weight: 700;
+line-height: 19.14px;
+text-align: center;
+color: rgba(162, 162, 162, 1);
+text-transform: uppercase;
+text-decoration: none;
+}
+
+.bottom nav li.active a {
+    font-family: var(--font-1);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.14px;
+    text-align: left;
+    color: rgba(248, 164, 0, 1);
+text-shadow: 0 0 5px #F8A400;
+
+}
+
+.btnf,
+.btnt,
+.btni {
+    width: 60px;
+height: 60px;
+
+gap: 0px;
+opacity: 0px;
+text-align: center;
+cursor: pointer;
+margin: 0;
+padding: 0;
+}
+
+.btnf {
+    background: rgba(56, 88, 146, 1);
+
+}
+.btnt {
+    background: rgba(19, 156, 234, 1);
+
+}
+.btni {
+    background: rgba(222, 43, 105, 1);
+
+}
+
+
+.left-nav2 {
+    position: absolute;
+left: 2%;
+}
+
+.center-nav2 {
+    position: absolute;
+ 
+    left: 40%;
+
+}
+
+.right-nav2 {
+    position: absolute;
+right: 2%;
+}
+.text {
+font-family: var(--font-1);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.14px;
+}
+
+
+
+.lastpage {
+    background-color: rgb(0, 0, 0);
+    height: 1150px;
+width: 100%;
+    position: relative;
+  
+}
+
+.ocean {
+    
+        background-image: url(../images/фонзеленый.png);
+    height: 740px;
+    width: 100%;
+    background-size: cover;
+
+    margin: 0 auto;  
+    display: flex;
+    position: absolute;   
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+  top: 200px;
+    opacity: 0.24;
+    filter: blur(2px);
+
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 16px;
+
+    overflow-x: hidden; 
+    
+    
+}
+
+.carousel img {
+    max-width: 100%;
+    height: auto;
+        width: 291px;
+height: 384px;
+
+gap: 0px;
+
+opacity: 0.8;
+-webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.38803), rgba(0, 0, 0, 0.38803)),
+linear-gradient(to top, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.80619) 100%);
+
+mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.38803), rgba(0, 0, 0, 0.38803)),
+linear-gradient(to top, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.80619) 100%);
+
+
+box-shadow: 0px 10px 15px rgb(255, 255, 255);
+border-radius: 3px;
+
+}
+
+.ava {
+    font-family: var(--font-1);
+font-size: 20px;
+font-weight: 600;
+line-height: 25.52px;
+
+width: 260px;
+height: 26px;
+gap: 0px;
+opacity: 0px;
+color: rgba(248, 164, 0, 1);
+
+position: absolute;
+top: 50%;
+display: flex;
+left: 45%;
+
+}
+
+.xbox {
+display: flex;
+position: absolute;
+flex-direction: row;
+width: 100%;
+    align-items: last baseline;
+    
+    justify-content: baseline;
+gap: 70px;
+top: 58%;
+left: 26%;
+}
+.blackk {
+    filter: invert(100%);
+}
+.things {
+    display: flex;
+position: absolute;
+flex-direction: row;
+width: 100%;
+    align-items: last baseline;
+   
+    justify-content: baseline;
+gap: 100px;
+top: 67%;
+left: 25%;
+}
+
+.nav3 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 70px;
+
+
+width: 100%;
+    align-items: last baseline;
+    
+    justify-content: baseline;
+
+    margin: 0 auto;
+    
+
+    justify-content: center;
+ 
+ 
+    height: 100%;
+
+bottom: 3%;
+
+color: rgba(255, 255, 255, 1);
+gap: 60px; 
+
+}
+.nav3 ul {
+    margin: 60px;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav3 ul li {
+    margin: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.C {
+    font-family: var(--font-1);
+font-size: 12px;
+font-weight: 400;
+line-height: 14.4px;
+
+color: rgba(103, 103, 103, 1);
+
+gap: 0px;
+opacity: 0px;
+
+display: flex;
+align-items: center;
+width: 100%;
+    align-items: last baseline;
+    
+    justify-content: center;
+
+position: absolute;
+align-items: center;
+bottom: 9%;
+}
+
+.teen {
+    position: absolute;
+    display: flex;
+    bottom: 0%;
+    left: 0;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1330px)  {
+    .CHARACTERS {
+max-width: 1100px;
+left: 2%;
+
+    }
+    .mini {
+    
+        display: flex;
+        flex-direction: column-reverse;
+     
+        align-items: center;
+        position: absolute;
+        right: 3%;
+        top: 28%;
+    }
+
+    .weapon1,
+    .weapon2 {
+        
+            display: none;
+        
+        
+    }
+    
+
+}
+
+@media screen and (max-width: 1080px)  {
+    .CHARACTERS {
+max-width: 900px;
+left: 2%;
+
+    }
+
+.btn7 {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    bottom: -100%;
+}
+.ALOY {
+    display: none;
+}
+.stop {
+z-index: 4;
+}
+.btn3 {
+    top: -15%;
+    
+}
+}
+
+@media screen and (max-width: 917px)  {
+    .CHARACTERS {
+max-width: 600px;
+left: 14%;
+
+    }
+
+
+}
+
+@media screen and (max-width: 691px)  {
+    .CHARACTERS {
+max-width: 500px;
+left: 14%;
+
+    }
+
+
+}
+
+@media screen and (max-width: 1193px)  {
+ .bottom ul {
+ 
+    display: flex;
+
+   flex-direction: column;
+
+    align-items: center;
+    position: absolute;
+    
+
+    margin: 0 0;
+gap: 10px;
+z-index: 3;
+bottom: 2%;
+width: 600px;
+left: 0%;
+
+ }
+ .bottom {
+    height: 100%;
+
+
+    align-items: last baseline;
+    position:absolute;
+    
+    left: -25%;
+ }
+
+.left-nav2 {
+    position: absolute;
+
+}
+
+.center-nav2 {
+    position: absolute;
+ left: 22%;
+    
+
+}
+
+.right-nav2 {
+    position: absolute;
+left: 40%;
+}
+
+}
+
+@media screen and (max-width: 691px)  {
+
+    .bg-container,
+    .features, 
+    .inner {
+        min-width: min-content;
+        min-height: max-content;
+    }
+
+
+    .left-nav2 {
+        position: absolute;
+    left: -4%;
+    }
+    
+    .center-nav2 {
+        position: absolute;
+     left: 24%;
+        
+    
+    }
+    
+    .right-nav2 {
+        position: absolute;
+    left: 51%;
+    }
+
+
+}
+
+@media screen and (max-width: 1209px)  {
+    .ava {
+        left: 3%;
+    }
+ .xbox {
+left: 3%;
+
+ }
+    .things {
+left: 3%;
+    }
+}
+
+
+@media screen and (max-width: 951px)  {
+
+ .xbox img {
+width: 130px;
+
+ }
+    .things img {
+width: 100px;
+    }
+}
+@media screen and (max-width: 755px)  {
+
+    
+
+
+    .xbox img {
+   width: 90px;
+   
+    }
+       .things img {
+   width: 70px;
+       }
+       .nav3 {
+        font-size: 16px;
+        gap: 20px;
+       
+       }
+       .nav3 ul li {
+       margin: 10px 2px;
+        padding: 8px;
+   }
+}
+
+@media screen and (max-width: 611px)  {
+
+    .xbox img {
+   width: 100px;
+   
+    }
+       .things img {
+   width: 70px;
+       }
+       .xbox {
+        flex-direction: column;
+        left: -70%;
+        top: 36%;
+        gap: 100px;
+       }
+       .things {
+        flex-direction: column;
+        left: -40%;
+        top: 36%;
+        gap: 30px;
+       }
+       .ava {
+        top: auto;
+        bottom: 20%;
+       }
+   }
+
+
+
+
+
+
+
+
+
+
+   @media screen and (max-width: 768px)  {
+/* Контейнер фона */
+
+.bg-container {
+    /* Убираем фиксированную высоту, заменяем её на 100% высоты экрана */
+    height: 100vh;
+
+    width: 100vw;
+}
+
+/* Заголовок страницы */
+.page-header {
+    height: 60px; /* Уменьшаем высоту шапки */
+}
+
+.page-header .inner {
+    max-width: 90%; /* Ограничиваем ширину контента внутри шапки */
+}
+
+.page-header .btn {
+    right: 12px; /* Немного увеличиваем отступ кнопки для удобства нажатия */
+}
+
+.page-header .img {
+    margin: 0 30px; /* Уменьшаем отступы между элементами */
+    background: rgba(255, 255, 255, 1);
+}
+
+.page-header .left-nav ul,
+.page-header .right-nav ul {
+
+    flex-wrap: wrap;
+}
+
+.page-header {
+        height: 80px; /* Ещё больше уменьшаем высоту шапки на мобильных устройствах */
+    }
+    
+    .page-header .inner {
+        max-width: 95%; /* Расширяем область контента на узких экранах */
+    }
+
+    .page-header .btn {
+        font-size: 14px; /* Уменьшаем размер текста кнопки */
+    }
+
+    .page-header .img {
+        margin: 0 20px; /* Ещё меньший отступ для иконок */
+    }
+
+/* Адаптивные размеры картинок */
+
+
+/* Медиазапрос для мобильных устройств */
+
+    .features .feature-large,
+    .features .feature-medium,
+    .features .feature-small {
+        width: 80vw; /* На маленьких экранах делаем картинки шире */
+         margin: 5px;
+        right: 5vw;/* Отступ слева 10% от ширины экрана */
+    
+}
+.features .feature-text {
+        width: 85%; /* Увеличим ширину текста на очень маленьких экранах */
+    }
+    
+    .features .feature-text h2 {
+        font-size: 10px; /* Еще больше уменьшим шрифт для заголовка */
+    }
+    
+    .features .feature-text p {
+        font-size: 16px; /* Немного увеличим основной текст для лучшей читаемости */
+        line-height: 20px; /* Уменьшим межстрочный интервал */
+    }
+
+/* Оптимизация для мобильных устройств */
+
+    .CHARACTERS {
+        gap: 0px;
+        opacity: 0px;
+        color: linear-gradient(180deg, #2D2D2D 0%, #A3A3A3 100%),
+                linear-gradient(0deg, rgba(0, 0, 0, 0.666084), rgba(0, 0, 0, 0.666084));
+        position: relative; /* Вместо 'absolute' используем 'relative', чтобы элемент оставался внутри контейнера */
+        top: -10%;
+        left: 60%; /* Центрируем элемент */
+        transform: translateX(-50%); /* Для точного центрирования */
+        margin: 0;
+        padding: 0;
+        z-index: -1;
+        width: 80vw;
+    }
+    
+    .PROTAGONISTS {
+        margin-left: 10px;
+        
+    }
+    
+    .mini {
+        display: flex;
+        flex-direction: column; /* На маленьких экранах лучше использовать колонку вместо строки */
+        justify-content: center; /* Центрирование по вертикали */
+        align-items: center;
+        position: relative; /* Относительное позиционирование */
+        right: -20%; /* Убираем фиксированное смещение вправо */
+        top: auto; /* Убираем фиксированное смещение сверху */
+        width: 90%; /* Ширина элемента */
+        margin: 0 auto; /* Центрирование по горизонтали */
+        
+    }
+    
+    .ALOY {
+        position: relative; /* Относительное позиционирование */
+        right: auto; /* Убираем фиксированное смещение вправо */
+         /* Убираем фиксированное смещение сверху */
+        margin-top: 15px; /* Добавляем отступ сверху */
+    }
+    
+    .stop {
+        width: 80%; /* Делаем ширину отзывчивой */
+        height: auto; /* Высота автоматически адаптируется под контент */
+        font-size: 18px; /* Меньший размер шрифта для мобильных устройств */
+        line-height: normal; /* Нормальная высота строки */
+        text-align: center; /* Центрирование текста */
+        color: #F8A500;
+        
+        position: relative; /* Относительное позиционирование */
+        right: auto; /* Убираем фиксированное смещение вправо */
+        top: auto; /* Убираем фиксированное смещение сверху */
+        margin: 15px auto; /* Отступы сверху и снизу + центрирование */
+    }
+
+
+    .character {
+        background-color: rgb(0, 0, 0);
+        height: 100vh; /* Используем viewport unit для высоты */
+        width: 100vw;
+        position: relative;
+    }
+
+    .aloyy {
+        width: 85vw; /* Гибкая ширина */
+        height: auto; /* Автоматическая высота для сохранения пропорций */
+        object-fit: contain; /* Сохранение пропорций изображения */
+        margin: 0 0; /* Центрирование по горизонтали */
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: left;
+        position: absolute;
+        top: -100px; /* Прикрепление к нижней части экрана */
+        left: -30px; /* Выравнивание по левому краю */
+        z-index: 1; /* Обеспечивает расположение над другими элементами */
+    }
+    
+
+    .back {
+        background-image: url(../images/переход\ зеленый.png);
+        height: 60vh; /* Высота в процентах от высоты экрана */
+        width: 100%;
+        background-size: cover;
+        margin: 0 auto;
+        display: flex;
+        position: absolute;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-end;
+        bottom: -0px;
+        z-index: 2;
+    }
+
+    .bottom {
+        height: 30px; /* Уменьшаем высоту панели навигации */
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        align-items: center; /* Центрирование элементов по вертикали */
+         /* Фиксируем положение панели внизу экрана */
+        bottom: -1%; /* Размещаем панель внизу экрана */
+        margin: 0;
+        justify-content: space-between; /* Равномерное распределение элементов */
+        z-index: 3;
+        left: -68%;
+    }
+
+    .left-nav2 ul,
+    .right-nav2 ul,
+    .center-nav2 ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+         /* Распределяем пункты меню равномерно */
+    }
+
+    .left-nav2 li,
+    .right-nav2 li,
+    .center-nav2 li {
+        margin-right: 10px; /* Небольшие промежутки между пунктами меню */
+    }
+
+    .left-nav2 a,
+    .right-nav2 a,
+    .center-nav2 a {
+        font-size: 12px; /* Уменьшаем размер шрифта для экономии места */
+        text-decoration: none;
+        color: #333; /* Цвет ссылок можно изменить по необходимости */
+    }
+
+    .btnf,
+    .btnt,
+    .btni {
+        width: 40px; /* Уменьшаем размер кнопок */
+        height: 40px;
+        gap: 0px;
+        opacity: 0px;
+        text-align: center;
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+    }
+
+    .left-nav2 {
+        position: absolute;
+        left: 5%; /* Смещаем немного больше для удобства */
+    }
+
+    .center-nav2 {
+        position: absolute;
+        left: 35%; /* Смещаем ближе к центру */
+    }
+
+    .right-nav2 {
+        position: absolute;
+        right: 5%; /* Смещаем немного больше для удобства */
+        display: none;
+    }
+
+    .nav3 {
+      font-size: 10px;
+        max-height: 20px; /* Уменьшаем высоту панели */
+        width: 85vw;
+       /* Центрирование элементов по вертикали */
+        /* Равномерное распределение элементов */
+left: 8%;
+
+gap: 0;
+    }
+    body {
+        width: 100vw;
+        height: 100vw;
+    }
+}
+
+   
+
+
+
+
+
+
+
+  
+  
