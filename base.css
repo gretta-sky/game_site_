@@ -48,7 +48,7 @@ cursor: pointer;
 }
 
 .bg-container {
-    background-image: url(../images/фонпервый.jpg);
+    background-image: url(фонпервый.jpg);
     height: 1000px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -134,7 +134,7 @@ text-shadow: 0 0 5px #F8A400;
 
 .features {
     background-color: black;
-    background-image: url(../images/фончерни.jpg);
+    background-image: url(фончерни.jpg);
 }
 .features .inner {
     max-width: 100%;
@@ -188,7 +188,7 @@ position: relative;
 
 .features .feature-1
 {
-    background-image: url(../images/вотч.jpg);
+    background-image: url(вотч.jpg);
 }
 
 .features .feature-1 .feature-text {
@@ -198,7 +198,7 @@ position: relative;
 
 .features .feature-2
 {
-    background-image: url(../images/плывет.jpg);
+    background-image: url(плывет.jpg);
 }
 .features .feature-2 .feature-text {
     left: -24px;
@@ -207,7 +207,7 @@ position: relative;
 
 .features .feature-3
 {
-    background-image: url(../images/челикистоят.jpg);
+    background-image: url(челикистоят.jpg);
 }
 .features .feature-3 .feature-text {
 
@@ -218,7 +218,7 @@ position: relative;
 
 .features .feature-4
 {
-    background-image: url(../images/обоибрауз.jpg);
+    background-image: url(обоибрауз.jpg);
 }
 .features .feature-4 .feature-text {
     left: -24px;
@@ -226,7 +226,7 @@ position: relative;
 }
 .features .feature-5
 {
-    background-image: url(../images/преордер.jpg);
+    background-image: url(преордер.jpg);
 }
 .features .feature-5 .feature-text {
     left: 100px;
@@ -290,14 +290,14 @@ margin: 0;
 }
 
 .features .feature-2 {
-    background-image: url(../images/плывет.jpg);
+    background-image: url(плывет.jpg);
 }
 .features .feature-2 .feature-text {
     bottom: 15px;
 }
 
 .features .feature-3 {
-    background-image: url(../images/челикистоят.jpg);
+    background-image: url(челикистоят.jpg);
 }
 .features .feature-3 .feature-text {
     bottom: 15px;
@@ -305,14 +305,14 @@ margin: 0;
 }
 
 .features .feature-4 {
-    background-image: url(../images/обоибрауз.jpg);
+    background-image: url(обоибрауз.jpg);
 }
 .features .feature-4 .feature-text {
     bottom: 75px;
 }
 
 .features .feature-5 {
-    background-image: url(../images/преордер.jpg);
+    background-image: url(преордер.jpg);
 }
 .features .feature-5 .feature-text {
     bottom: 30px;
@@ -343,7 +343,7 @@ width: 100%;
     z-index: 1;
 }
 .back {
-    background-image: url(../images/переход\ зеленый.png);
+    background-image: url(переход\ зеленый.png);
 height: 720px;
 width: 100%;
 background-size: cover;
@@ -596,7 +596,7 @@ width: 100%;
 
 .ocean {
     
-        background-image: url(../images/фонзеленый.png);
+        background-image: url(фонзеленый.png);
     height: 740px;
     width: 100%;
     background-size: cover;
@@ -1155,7 +1155,7 @@ width: 100px;
     
 
     .back {
-        background-image: url(../images/переход\ зеленый.png);
+        background-image: url(переход\ зеленый.png);
         height: 60vh; /* Высота в процентах от высоты экрана */
         width: 100%;
         background-size: cover;
